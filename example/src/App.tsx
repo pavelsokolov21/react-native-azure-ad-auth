@@ -1,19 +1,16 @@
 import * as React from 'react';
-
-import { StyleSheet, View, Text } from 'react-native';
-import { multiply } from 'react-native-azure-ad-auth';
+import { StyleSheet, View } from 'react-native';
+import { Provider as AuthProvider } from 'react-native-azure-ad-auth-2';
+import { AuthManager } from './auth';
+import { HomeScreen } from './screens/home';
 
 export default function App() {
-  const [result, setResult] = React.useState<number | undefined>();
-
-  React.useEffect(() => {
-    multiply(3, 7).then(setResult);
-  }, []);
-
   return (
-    <View style={styles.container}>
-      <Text>Result: {result}</Text>
-    </View>
+    <AuthProvider AuthManager={AuthManager}>
+      <View style={styles.container}>
+        <HomeScreen />
+      </View>
+    </AuthProvider>
   );
 }
 
