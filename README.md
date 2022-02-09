@@ -1,6 +1,6 @@
 # react-native-azure-ad-auth
 
-Authentification through Azure AD for React Native apps
+Authentication through Azure AD for React Native
 
 ## Installation
 
@@ -11,7 +11,7 @@ npm install react-native-azure-ad-auth
 ## Usage
 
 ```js
-import { multiply } from "react-native-azure-ad-auth";
+import { multiply } from 'react-native-azure-ad-auth';
 
 // ...
 
