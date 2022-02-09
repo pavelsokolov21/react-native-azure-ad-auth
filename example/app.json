@@ -1,0 +1,22 @@
+{
+  "name": "react-native-azure-ad-auth-example",
+  "displayName": "AzureAdAuth Example",
+  "expo": {
+    "name": "react-native-azure-ad-auth-example",
+    "slug": "react-native-azure-ad-auth-example",
+    "description": "Example app for react-native-azure-ad-auth",
+    "privacy": "public",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
