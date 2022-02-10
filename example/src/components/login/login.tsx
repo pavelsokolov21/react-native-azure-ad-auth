@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Button, Text, View, ViewProps } from 'react-native';
-import { useAuth } from 'react-native-azure-ad-auth-2';
+import { useAuth } from 'react-native-azure-ad-auth';
 import styles from './login.styles';
 
 interface Props extends ViewProps {

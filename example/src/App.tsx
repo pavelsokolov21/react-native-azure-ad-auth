@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { StyleSheet, View } from 'react-native';
-import { Provider as AuthProvider } from 'react-native-azure-ad-auth-2';
+import { Provider as AuthProvider } from 'react-native-azure-ad-auth';
 import { AuthManager } from './auth';
 import { HomeScreen } from './screens/home';
 

@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Text, View } from 'react-native';
-import { useCheckLogin } from 'react-native-azure-ad-auth-2';
+import { useCheckLogin } from 'react-native-azure-ad-auth';
 import { Login } from '../../components/login';
 
 export const HomeScreen: React.FC = () => {

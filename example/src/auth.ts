@@ -1,7 +1,7 @@
 import {
   createAuthManager,
   AuthConfiguration,
-} from 'react-native-azure-ad-auth-2';
+} from 'react-native-azure-ad-auth';
 
 export const authConfig: AuthConfiguration = {
   clientId: 'a5dde74c-5a29-43fc-a43c-df766dc6a230',
